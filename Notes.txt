@@ -1,0 +1,48 @@
+Notes for CSS
+
+Methods to Add it to HTML 
+-----------------------------------------------------------------------------------------------------------------------------------------
+-----------------------------------------------------------------------------------------------------------------------------------------
+1.  External CSS
+<head>
+    <link rel="stylesheet" href = "Location of CSS file" type = "text/css">
+</head>
+
+@import  For bigger projects. Not very useful nowadays. Used with CSS Preprocessors
+styles.css 
+@import url("/styles/layout.css");
+@import url("/styles/typography.css");
+@import url("/styles/buttons.css");
+
+<head>
+    <style> @import url("/styles/layout.css"); </style> 
+</head>
+
+2. Inline CSS . It applies to each event (non-reusable)
+<h1 style = "color:green;">Heading</h1>
+<p style = "color:red;font-size:12px;background:#00000;"> paragraph </p>
+
+3. Internal CSS. Usefult when you only have 1 page. If you have a lot of pages you would need to write a <style> to each page
+
+<head>
+    <style>
+        h1{
+            color:green
+        }
+        h2{
+            color:blue
+        }
+    </style>
+</head>
+
+
+-----------------------------------------------------------------------------------------------------------------------------------------
+-----------------------------------------------------------------------------------------------------------------------------------------
+Styles
+
+To see styles go to https://meettheipsums.com/
+
+-----------------------------------------------------------------------------------------------------------------------------------------
+-----------------------------------------------------------------------------------------------------------------------------------------
+
+
